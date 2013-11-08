@@ -8,3 +8,19 @@ class Warrior
   end
 
 end
+
+class SpearWarrior < Warrior
+
+  def initialize(name)
+    super(name, 'Spear')
+  end
+
+end
+
+class SwordWarrior < Warrior
+
+  def initialize(name)
+    super(name, 'Sword')
+  end
+
+end

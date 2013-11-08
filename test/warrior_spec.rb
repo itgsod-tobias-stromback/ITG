@@ -12,3 +12,21 @@ describe 'Warrior' do
     w2.name.should == 'Inigo'
   end
 end
+
+describe 'SpearWarrior' do
+
+  it 'should have a name and a spear' do
+    sw = SpearWarrior.new('Inigo')
+    sw.name.should == 'Inigo'
+    sw.weapon.should == 'Spear'
+  end
+end
+
+describe 'SwordWarrior' do
+
+  it 'should have a name and a sword' do
+    sw = SwordWarrior.new('Inigo')
+    sw.name.should == 'Inigo'
+    sw.weapon.should == 'Sword'
+  end
+end
