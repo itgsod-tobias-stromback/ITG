@@ -12,12 +12,12 @@ describe 'Warrior' do
   end
 
   it 'should not have a weapon' do
-    w = Warrior.new("")
+    w = Warrior.new('')
     expect { w.weapon }.to raise_error NotImplementedError
   end
 
   it 'should not have hp' do
-    w = Warrior.new("")
+    w = Warrior.new('')
     expect { w.hp }.to raise_error NotImplementedError
   end
 end
@@ -31,7 +31,7 @@ describe 'SpearWarrior' do
   end
 
   it 'should have 10 hp' do
-    sw = SpearWarrior.new("")
+    sw = SpearWarrior.new('')
     sw.hp.should == 10
   end
 end
@@ -45,7 +45,7 @@ describe 'SwordWarrior' do
   end
 
   it 'should have 15 hp' do
-    sw = SwordWarrior.new("")
+    sw = SwordWarrior.new('')
     sw.hp.should == 15
   end
 end
